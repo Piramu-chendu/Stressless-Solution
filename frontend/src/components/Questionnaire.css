@@ -1,0 +1,39 @@
+.questionnaire-container {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Max width for better readability */
+    margin: auto; /* Center the container */
+}
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black; /* Change label color to black */
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccacee; /* Soft gray */
+    border-radius: 4px;
+    color: black; /* Change select text color to black */
+}
+.questionnaire-container button {
+    padding: 10px 15px;
+    background-color: #ccacee; /* Green for positivity */
+    color: black; /* Keep button text color white for contrast */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.questionnaire-container button:hover {
+    background-color: #9f82bd; /* Darker green on hover */
+}

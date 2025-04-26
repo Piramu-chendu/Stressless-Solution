@@ -1,0 +1,114 @@
+/* Header Styles */
+.header {
+    background: linear-gradient(45deg, #e0c3fc, #f8f8f8); /* Gradient from light purple to white */
+    padding: 20px 0; /* Decrease padding to make the header shorter */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    animation: slideIn 0.5s ease forwards, colorChange 5s infinite alternate; /* Slide in and color change animations */
+}
+
+/* Slide-in Animation */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Color Change Animation */
+@keyframes colorChange {
+    0% {
+        background: linear-gradient(45deg, #e0c3fc, #f8f8f8); /* Light purple to white */
+    }
+    50% {
+        background: linear-gradient(45deg, #f8f8f8, #e0c3fc); /* Reversed gradient */
+    }
+    100% {
+        background: linear-gradient(45deg, #e0c3fc, #f8f8f8); /* Back to original */
+    }
+}
+
+/* Show header */
+.header.show {
+    transform: translateY(0); /* Slide down to original position */
+    opacity: 1; /* Fade in */
+}
+
+/* Header Container: Ensure full width and no gaps */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center; /* Vertically align the logo */
+}
+
+.logo-image {
+    width: 100px; /* Adjust logo size */
+    height: auto; /* Keep aspect ratio */
+    margin-right: 10px; /* Add space between logo and navbar */
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align navbar items vertically */
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+.nav-links li {
+    position: relative; /* Position for absolute positioning of the active link */
+}
+
+/* Styles for active link */
+.nav-links li a {
+    color: black; /* Change text color to black */
+    text-decoration: none;
+    padding: 10px 20px; /* Increase padding for links */
+    border-radius: 25px; /* Rounded rectangle */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Add transform for scaling effect */
+    position: relative; /* Required for the pseudo-element */
+    overflow: hidden; /* Ensure the background does not overflow */
+}
+
+.nav-links li a.active {
+    background-color: rgba(255, 255, 255, 0.3); /* Active background color */
+    color: black; /* Ensure active link text color is black */
+}
+
+/* Add hover effect */
+.nav-links li a:hover {
+    background-color: #d4b1f6;
+    color: white; /* Change text color to white on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Adjust body padding to avoid content overlap */
+body {
+    padding-top: 80px; /* Adjust this to reflect the new height of the header */
+    margin: 0;
+}

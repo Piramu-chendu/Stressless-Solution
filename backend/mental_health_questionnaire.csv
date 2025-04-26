@@ -1,0 +1,501 @@
+mood,sleep,energy,appetite,interest,irritability,concentration,feelingWorthy,anxiousThoughts,panicAttacks,stress,anxiety,depression
+Neutral,Very Poor,Very Low,Decreased,Somewhat,Not at All,Very Good,Very Often,Sometimes,Yes,Moderate,Moderate,Low
+Very Low,Very Poor,Very High,Normal,No,Somewhat Irritable,Neutral,Good,Very Often,No,Low,High,High
+Neutral,Very Poor,Very High,Normal,No,Somewhat Irritable,Good,Very Poor,Never,No,Low,Low,High
+Very Good,Good,Moderate,Increased,Somewhat,Somewhat Irritable,Good,Very Often,Very Often,Yes,Low,High,High
+Neutral,Poor,Low,Increased,No,Not at All,Neutral,Very Poor,Rarely,Yes,Moderate,Low,Low
+Very Good,Neutral,Very High,Increased,No,Completely,Very Irritable,Good,Never,No,Low,High,High
+Very Low,Very Good,Very High,Decreased,Somewhat,Not at All,Very Irritable,Very Often,Very Often,Yes,High,Moderate,High
+Good,Neutral,Very Low,Decreased,Somewhat,Not at All,Neutral,Good,Never,Yes,Moderate,Low,Moderate
+Very Good,Neutral,Low,Normal,Yes,Completely,Neutral,Good,Rarely,Yes,High,High,Low
+Good,Good,Low,Normal,No,Somewhat Irritable,Neutral,Sometimes,Rarely,Yes,High,Low,High
+Good,Neutral,Low,Increased,Yes,Completely,Good,Good,Very Often,Yes,Low,Moderate,High
+Low,Very Good,Very High,Normal,No,Completely,Very Good,Sometimes,Never,No,Low,Low,Moderate
+Very Low,Poor,Moderate,Normal,Somewhat,Completely,Good,Good,Rarely,Yes,Low,Moderate,Low
+Good,Poor,Moderate,Increased,Yes,Completely,Very Good,Very Often,Rarely,No,Moderate,Moderate,Moderate
+Low,Good,Moderate,Normal,Yes,Somewhat Irritable,Good,Very Poor,Sometimes,Yes,Low,Moderate,High
+Low,Poor,Low,Decreased,No,Somewhat Irritable,Neutral,Sometimes,Sometimes,No,Moderate,Moderate,Low
+Very Low,Neutral,Low,Normal,Somewhat,Completely,Very Good,Very Often,Sometimes,No,Low,Moderate,Low
+Very Good,Good,Low,Decreased,Yes,Somewhat Irritable,Neutral,Very Often,Never,No,High,High,Moderate
+Very Low,Good,Low,Normal,Somewhat,Not at All,Very Good,Very Often,Very Often,No,Low,Low,High
+Good,Neutral,Very Low,Normal,No,Completely,Poor,Rarely,Very Often,No,Moderate,High,Moderate
+Low,Good,Low,Increased,Yes,Somewhat Irritable,Very Good,Very Often,Sometimes,Yes,High,Moderate,Moderate
+Very Low,Neutral,Low,Decreased,Yes,Completely,Good,Good,Very Often,Yes,High,Moderate,High
+Very Low,Good,Low,Increased,Yes,Completely,Very Good,Sometimes,Very Often,No,Moderate,Low,High
+Very Low,Poor,Moderate,Decreased,Yes,Not at All,Good,Good,Very Often,Yes,Low,Low,Low
+Very Low,Good,Low,Increased,Yes,Not at All,Very Irritable,Good,Never,Yes,Low,Moderate,Moderate
+Very Good,Very Good,Very Low,Decreased,No,Not at All,Good,Very Often,Sometimes,Yes,Moderate,Low,High
+Very Good,Good,Low,Decreased,No,Somewhat Irritable,Poor,Sometimes,Sometimes,No,High,Moderate,Low
+Good,Neutral,High,Normal,No,Completely,Very Irritable,Very Often,Rarely,No,Low,High,High
+Low,Poor,Very High,Normal,Somewhat,Somewhat Irritable,Poor,Very Poor,Very Often,Yes,Low,Low,Moderate
+Very Good,Very Good,High,Decreased,Yes,Somewhat Irritable,Very Irritable,Very Often,Never,Yes,Moderate,Low,Moderate
+Very Good,Very Poor,Very Low,Increased,Yes,Completely,Neutral,Rarely,Sometimes,No,Low,Low,Low
+Low,Good,High,Normal,No,Completely,Very Irritable,Very Poor,Rarely,No,High,High,Low
+Very Good,Very Poor,Moderate,Increased,Somewhat,Not at All,Neutral,Very Often,Rarely,No,High,Moderate,Moderate
+Very Low,Good,Low,Decreased,No,Somewhat Irritable,Poor,Very Poor,Rarely,No,Low,Low,High
+Very Low,Good,Very High,Increased,Yes,Not at All,Very Good,Very Often,Very Often,Yes,High,Low,High
+Good,Good,Very Low,Decreased,No,Somewhat Irritable,Very Good,Rarely,Sometimes,Yes,Low,Moderate,High
+Very Good,Good,Very High,Normal,Somewhat,Somewhat Irritable,Very Irritable,Sometimes,Sometimes,Yes,Low,Moderate,High
+Good,Poor,Very Low,Increased,No,Not at All,Very Good,Sometimes,Very Often,Yes,Low,Moderate,Low
+Good,Poor,Very Low,Decreased,No,Not at All,Very Irritable,Sometimes,Very Often,Yes,Moderate,Moderate,High
+Neutral,Neutral,High,Increased,Yes,Not at All,Poor,Sometimes,Never,Yes,High,High,Moderate
+Very Low,Good,High,Increased,No,Not at All,Neutral,Very Often,Sometimes,Yes,Moderate,Moderate,Low
+Very Low,Good,Low,Increased,Yes,Not at All,Poor,Very Poor,Rarely,No,High,Moderate,High
+Low,Good,Very Low,Normal,Yes,Completely,Poor,Rarely,Very Often,No,High,High,High
+Good,Poor,Low,Decreased,Yes,Completely,Good,Rarely,Rarely,Yes,High,Low,Low
+Very Good,Very Poor,Very High,Increased,Yes,Somewhat Irritable,Very Good,Sometimes,Very Often,No,Low,Moderate,Low
+Neutral,Poor,Moderate,Normal,Yes,Somewhat Irritable,Neutral,Very Poor,Never,Yes,Moderate,High,High
+Low,Very Good,Very High,Increased,Somewhat,Completely,Neutral,Good,Sometimes,Yes,Low,High,Moderate
+Very Good,Very Good,Low,Increased,No,Somewhat Irritable,Poor,Rarely,Never,Yes,High,High,Low
+Very Good,Poor,High,Normal,No,Completely,Poor,Rarely,Sometimes,Yes,High,High,High
+Good,Poor,High,Normal,Yes,Completely,Very Good,Good,Rarely,Yes,High,Low,Low
+Neutral,Poor,High,Normal,Somewhat,Not at All,Poor,Sometimes,Never,No,High,High,Low
+Very Low,Very Poor,Moderate,Increased,No,Somewhat Irritable,Neutral,Rarely,Sometimes,Yes,Low,Low,High
+Very Low,Very Good,Very High,Increased,Somewhat,Not at All,Poor,Rarely,Very Often,No,High,Moderate,High
+Neutral,Neutral,Very High,Increased,Somewhat,Somewhat Irritable,Very Irritable,Sometimes,Very Often,Yes,Low,High,Moderate
+Low,Poor,Moderate,Decreased,Yes,Completely,Very Irritable,Rarely,Very Often,No,Moderate,High,High
+Very Good,Good,Very Low,Normal,Somewhat,Completely,Neutral,Sometimes,Sometimes,No,Moderate,High,High
+Low,Very Good,Very High,Decreased,Yes,Somewhat Irritable,Very Good,Sometimes,Sometimes,Yes,Moderate,Low,High
+Very Good,Good,Very Low,Normal,Somewhat,Completely,Very Irritable,Good,Sometimes,No,Low,Moderate,Moderate
+Neutral,Neutral,Very Low,Decreased,Yes,Not at All,Neutral,Rarely,Rarely,Yes,Moderate,Moderate,Moderate
+Neutral,Good,Very High,Decreased,Yes,Somewhat Irritable,Very Irritable,Rarely,Very Often,No,Moderate,Low,High
+Good,Poor,High,Decreased,Yes,Completely,Good,Sometimes,Sometimes,No,Low,Moderate,Low
+Neutral,Very Poor,High,Increased,Somewhat,Not at All,Neutral,Very Often,Never,No,Moderate,Low,Moderate
+Good,Poor,High,Normal,No,Not at All,Very Irritable,Very Often,Rarely,No,Moderate,High,High
+Good,Very Poor,Low,Increased,Yes,Completely,Neutral,Very Often,Sometimes,Yes,High,Low,Moderate
+Good,Neutral,Low,Increased,Somewhat,Not at All,Very Irritable,Sometimes,Very Often,No,Low,High,Moderate
+Very Good,Good,Low,Increased,No,Not at All,Good,Very Often,Rarely,No,High,Low,Moderate
+Good,Very Poor,High,Normal,Somewhat,Somewhat Irritable,Neutral,Very Often,Never,No,High,Low,Low
+Neutral,Good,Low,Increased,Yes,Not at All,Neutral,Rarely,Never,No,High,Moderate,Low
+Neutral,Very Poor,Low,Normal,No,Somewhat Irritable,Good,Rarely,Never,No,High,Moderate,Moderate
+Very Good,Neutral,Low,Decreased,Yes,Not at All,Very Good,Sometimes,Sometimes,No,Low,Moderate,Low
+Very Good,Very Good,Moderate,Normal,Yes,Somewhat Irritable,Very Irritable,Very Often,Never,Yes,Low,Moderate,Moderate
+Good,Neutral,Very High,Decreased,Somewhat,Somewhat Irritable,Neutral,Very Poor,Rarely,No,High,High,High
+Neutral,Poor,Low,Normal,Yes,Somewhat Irritable,Neutral,Very Poor,Rarely,Yes,Low,Low,High
+Very Good,Poor,Very Low,Decreased,Somewhat,Not at All,Neutral,Sometimes,Never,Yes,High,Low,Moderate
+Very Low,Neutral,Very Low,Increased,Somewhat,Somewhat Irritable,Very Irritable,Very Often,Sometimes,Yes,Low,Low,Low
+Very Good,Very Poor,High,Decreased,Somewhat,Completely,Very Irritable,Rarely,Very Often,No,Moderate,Low,High
+Very Good,Very Good,High,Increased,Yes,Completely,Very Irritable,Very Often,Sometimes,No,High,High,Moderate
+Very Good,Good,Very Low,Increased,No,Completely,Very Irritable,Very Poor,Rarely,No,Moderate,Low,Moderate
+Good,Very Poor,Very Low,Normal,No,Somewhat Irritable,Good,Rarely,Sometimes,Yes,High,High,Moderate
+Good,Poor,Very Low,Increased,Yes,Somewhat Irritable,Neutral,Good,Sometimes,Yes,Moderate,High,Moderate
+Good,Good,Moderate,Increased,No,Not at All,Neutral,Rarely,Never,Yes,High,Moderate,Low
+Very Good,Good,Very High,Increased,Somewhat,Not at All,Good,Very Poor,Rarely,No,High,Low,High
+Very Good,Very Poor,Very Low,Increased,No,Not at All,Neutral,Sometimes,Sometimes,Yes,Low,Low,Moderate
+Neutral,Neutral,Moderate,Decreased,No,Completely,Poor,Very Poor,Rarely,Yes,Low,High,High
+Neutral,Good,Low,Normal,Yes,Completely,Good,Very Poor,Never,Yes,High,Low,Low
+Good,Neutral,High,Normal,No,Not at All,Good,Sometimes,Never,No,Low,Low,High
+Very Low,Good,Moderate,Normal,Yes,Not at All,Very Irritable,Sometimes,Never,No,High,High,Low
+Very Low,Very Poor,Low,Increased,No,Somewhat Irritable,Neutral,Very Poor,Sometimes,No,Moderate,Moderate,High
+Very Good,Neutral,Very High,Decreased,No,Not at All,Good,Sometimes,Never,No,High,High,Low
+Very Good,Very Good,High,Decreased,Somewhat,Somewhat Irritable,Neutral,Very Poor,Sometimes,No,Moderate,Low,High
+Very Low,Good,Very High,Decreased,Yes,Completely,Very Good,Rarely,Very Often,No,High,Low,Low
+Very Good,Poor,Moderate,Decreased,No,Somewhat Irritable,Good,Rarely,Very Often,No,Moderate,Moderate,Low
+Neutral,Poor,Very High,Decreased,Yes,Somewhat Irritable,Very Good,Very Often,Never,No,Low,Low,High
+Low,Neutral,Low,Decreased,No,Somewhat Irritable,Very Irritable,Very Often,Never,No,Low,Moderate,Low
+Neutral,Poor,Low,Increased,Yes,Completely,Good,Good,Very Often,Yes,High,High,Moderate
+Very Low,Good,Moderate,Normal,No,Not at All,Good,Rarely,Sometimes,Yes,Low,Low,Low
+Low,Good,Moderate,Increased,Yes,Completely,Good,Rarely,Never,Yes,Moderate,Moderate,High
+Good,Neutral,Very High,Increased,No,Somewhat Irritable,Poor,Sometimes,Sometimes,Yes,High,Low,High
+Very Good,Good,Very High,Decreased,No,Completely,Good,Sometimes,Sometimes,Yes,Moderate,Low,High
+Low,Very Poor,Very Low,Normal,No,Completely,Good,Rarely,Sometimes,No,Moderate,High,Moderate
+Good,Poor,Low,Increased,Yes,Not at All,Neutral,Very Often,Rarely,No,Moderate,Moderate,Moderate
+Very Good,Neutral,High,Increased,Yes,Somewhat Irritable,Good,Sometimes,Very Often,Yes,Moderate,Low,Low
+Very Low,Very Good,Very High,Normal,No,Completely,Neutral,Sometimes,Rarely,Yes,High,Moderate,Low
+Neutral,Good,Low,Normal,Yes,Not at All,Neutral,Very Often,Very Often,No,High,Moderate,Moderate
+Very Low,Very Poor,Low,Normal,Yes,Completely,Poor,Sometimes,Very Often,Yes,Low,Low,Moderate
+Neutral,Very Poor,Very High,Increased,Somewhat,Not at All,Neutral,Rarely,Very Often,Yes,Low,Moderate,Moderate
+Good,Good,Very High,Increased,Somewhat,Somewhat Irritable,Very Irritable,Rarely,Very Often,No,Low,Low,Moderate
+Very Good,Good,Very High,Normal,No,Not at All,Neutral,Sometimes,Never,No,Moderate,Moderate,Moderate
+Neutral,Neutral,Very Low,Increased,Somewhat,Not at All,Very Irritable,Good,Never,No,Low,Moderate,High
+Low,Poor,Low,Decreased,Somewhat,Not at All,Poor,Very Often,Very Often,No,High,High,High
+Neutral,Very Good,Moderate,Increased,Yes,Not at All,Poor,Very Often,Very Often,No,Moderate,Low,Low
+Good,Good,Very High,Normal,No,Somewhat Irritable,Very Irritable,Rarely,Never,No,Low,Moderate,High
+Very Low,Neutral,Moderate,Normal,Yes,Completely,Neutral,Good,Very Often,No,Low,Low,High
+Low,Very Poor,Low,Increased,Yes,Completely,Poor,Good,Very Often,No,Moderate,Moderate,High
+Good,Poor,Moderate,Normal,Yes,Somewhat Irritable,Very Good,Good,Sometimes,Yes,Low,High,High
+Low,Neutral,High,Normal,Yes,Somewhat Irritable,Good,Good,Very Often,Yes,Low,High,Moderate
+Low,Very Good,Very High,Normal,Somewhat,Somewhat Irritable,Poor,Very Often,Sometimes,No,High,Low,Moderate
+Low,Very Good,Low,Increased,Yes,Completely,Good,Very Poor,Rarely,Yes,Low,Low,High
+Neutral,Very Poor,Very High,Increased,No,Completely,Very Irritable,Good,Very Often,No,Low,Moderate,Moderate
+Very Good,Very Poor,Moderate,Normal,Yes,Completely,Poor,Very Poor,Sometimes,No,High,High,Moderate
+Very Good,Very Poor,Low,Increased,Somewhat,Not at All,Very Irritable,Sometimes,Sometimes,No,High,Low,Moderate
+Very Low,Poor,Very High,Decreased,Somewhat,Completely,Good,Very Poor,Never,Yes,Moderate,Low,Low
+Neutral,Poor,Very High,Decreased,Somewhat,Completely,Neutral,Sometimes,Sometimes,Yes,Low,High,Moderate
+Very Low,Neutral,Low,Decreased,No,Not at All,Very Irritable,Sometimes,Very Often,Yes,Low,Low,High
+Very Good,Good,Moderate,Increased,Somewhat,Not at All,Very Irritable,Good,Sometimes,No,Low,High,High
+Very Good,Very Poor,High,Normal,No,Not at All,Very Good,Very Often,Very Often,Yes,Moderate,Moderate,Low
+Good,Good,High,Increased,No,Completely,Poor,Rarely,Rarely,Yes,Moderate,Moderate,High
+Very Low,Neutral,Moderate,Decreased,Yes,Completely,Very Good,Very Often,Rarely,Yes,Moderate,Moderate,High
+Low,Good,Very High,Increased,Somewhat,Completely,Very Irritable,Very Poor,Very Often,No,Moderate,Moderate,Moderate
+Neutral,Poor,Moderate,Increased,Yes,Not at All,Poor,Sometimes,Rarely,Yes,High,Low,Moderate
+Very Good,Neutral,Low,Normal,Somewhat,Not at All,Neutral,Good,Sometimes,Yes,Moderate,High,Low
+Good,Very Poor,Very Low,Decreased,No,Completely,Very Irritable,Very Often,Rarely,No,Low,High,Low
+Good,Poor,Low,Increased,Somewhat,Completely,Poor,Very Often,Never,No,High,Moderate,High
+Very Low,Very Poor,High,Decreased,Somewhat,Completely,Neutral,Sometimes,Very Often,No,Moderate,High,Low
+Neutral,Neutral,Moderate,Decreased,Somewhat,Somewhat Irritable,Poor,Good,Sometimes,No,Low,Low,Low
+Good,Very Good,Very High,Increased,Yes,Completely,Very Good,Rarely,Never,No,High,High,Low
+Very Low,Very Poor,Very High,Decreased,No,Somewhat Irritable,Neutral,Good,Rarely,Yes,Moderate,Low,Moderate
+Low,Poor,Moderate,Decreased,Somewhat,Somewhat Irritable,Neutral,Sometimes,Never,Yes,Moderate,Moderate,Low
+Very Good,Very Poor,Moderate,Increased,Somewhat,Completely,Neutral,Sometimes,Very Often,No,High,High,Low
+Good,Good,Moderate,Increased,Somewhat,Completely,Very Irritable,Good,Rarely,Yes,High,High,High
+Low,Good,High,Decreased,No,Somewhat Irritable,Very Good,Good,Very Often,Yes,Low,Moderate,Low
+Very Low,Good,Moderate,Increased,Yes,Not at All,Very Irritable,Sometimes,Rarely,Yes,Moderate,High,Low
+Very Good,Very Good,Very High,Increased,Yes,Somewhat Irritable,Very Good,Rarely,Sometimes,Yes,High,Moderate,Moderate
+Very Good,Neutral,High,Normal,No,Somewhat Irritable,Very Good,Good,Rarely,Yes,Moderate,High,Low
+Neutral,Neutral,Very High,Increased,No,Not at All,Very Good,Very Often,Sometimes,Yes,Low,High,Moderate
+Low,Poor,High,Normal,Yes,Completely,Neutral,Sometimes,Sometimes,No,Moderate,Low,High
+Very Low,Poor,Very Low,Increased,Somewhat,Somewhat Irritable,Neutral,Sometimes,Sometimes,No,High,Moderate,High
+Low,Neutral,Moderate,Normal,Somewhat,Completely,Poor,Rarely,Rarely,No,Low,Low,Low
+Good,Good,Very High,Normal,Somewhat,Completely,Good,Sometimes,Never,Yes,Low,Moderate,High
+Very Good,Very Poor,Low,Normal,No,Completely,Poor,Very Often,Very Often,No,High,Moderate,Low
+Low,Very Poor,Very High,Increased,Somewhat,Somewhat Irritable,Poor,Good,Sometimes,No,Low,High,High
+Very Low,Poor,High,Decreased,Somewhat,Not at All,Very Irritable,Very Poor,Rarely,No,High,High,High
+Low,Very Good,Moderate,Decreased,Somewhat,Not at All,Poor,Very Poor,Never,No,Low,Low,High
+Very Low,Very Good,Very High,Decreased,No,Completely,Poor,Sometimes,Never,No,Low,Low,High
+Low,Poor,Moderate,Normal,Somewhat,Not at All,Good,Sometimes,Very Often,No,Moderate,Moderate,Low
+Very Good,Very Good,Very High,Decreased,Somewhat,Completely,Poor,Very Often,Sometimes,Yes,Low,Moderate,Low
+Good,Very Good,Low,Normal,No,Somewhat Irritable,Poor,Sometimes,Sometimes,No,Moderate,Moderate,Moderate
+Very Low,Very Good,Very High,Normal,No,Not at All,Poor,Rarely,Sometimes,No,Moderate,Moderate,Low
+Neutral,Neutral,Very High,Normal,No,Completely,Neutral,Very Often,Never,No,High,High,Low
+Good,Good,High,Normal,No,Somewhat Irritable,Good,Good,Very Often,No,High,Moderate,Moderate
+Neutral,Poor,Moderate,Decreased,Somewhat,Completely,Very Good,Good,Never,No,Low,High,Low
+Very Good,Very Poor,Moderate,Normal,Yes,Not at All,Very Good,Good,Never,Yes,Moderate,Moderate,Low
+Very Low,Neutral,Very High,Increased,No,Somewhat Irritable,Good,Very Poor,Never,Yes,Low,High,High
+Very Low,Neutral,Low,Increased,Somewhat,Completely,Poor,Rarely,Sometimes,Yes,Low,Moderate,High
+Neutral,Poor,Very High,Normal,No,Somewhat Irritable,Neutral,Very Often,Very Often,No,High,Moderate,Low
+Very Good,Neutral,Moderate,Normal,Somewhat,Completely,Neutral,Good,Very Often,No,Moderate,High,Low
+Low,Very Poor,High,Decreased,Somewhat,Somewhat Irritable,Very Irritable,Good,Sometimes,No,Low,Low,Moderate
+Low,Very Good,Low,Normal,No,Not at All,Neutral,Rarely,Very Often,Yes,Low,Moderate,Low
+Very Good,Good,High,Increased,Somewhat,Somewhat Irritable,Poor,Rarely,Very Often,No,Moderate,Low,High
+Neutral,Very Poor,Low,Normal,Yes,Not at All,Neutral,Sometimes,Rarely,No,Low,High,High
+Good,Good,High,Normal,Yes,Somewhat Irritable,Very Irritable,Very Often,Very Often,No,Moderate,Low,Moderate
+Neutral,Very Good,High,Normal,Yes,Not at All,Very Good,Good,Sometimes,No,Low,High,High
+Neutral,Very Good,Low,Increased,Yes,Somewhat Irritable,Neutral,Very Often,Very Often,No,Low,High,High
+Good,Very Poor,Low,Increased,Yes,Not at All,Neutral,Rarely,Never,No,Moderate,Moderate,Moderate
+Neutral,Very Poor,Low,Increased,No,Completely,Poor,Rarely,Sometimes,Yes,Low,Low,Moderate
+Very Good,Very Poor,Very Low,Normal,Somewhat,Somewhat Irritable,Very Irritable,Sometimes,Sometimes,Yes,Moderate,Low,Moderate
+Very Low,Good,Low,Normal,Yes,Not at All,Good,Sometimes,Rarely,No,Moderate,Moderate,Moderate
+Good,Very Poor,High,Normal,Somewhat,Somewhat Irritable,Neutral,Very Often,Rarely,No,Low,High,High
+Very Good,Poor,Low,Increased,Somewhat,Completely,Neutral,Very Often,Rarely,No,Moderate,High,Low
+Very Good,Poor,High,Normal,Somewhat,Somewhat Irritable,Good,Sometimes,Never,Yes,Moderate,Moderate,Moderate
+Low,Very Good,Moderate,Decreased,Somewhat,Not at All,Very Irritable,Very Often,Never,No,Moderate,Low,Moderate
+Neutral,Poor,Low,Decreased,Yes,Somewhat Irritable,Good,Good,Rarely,No,Low,High,Low
+Very Good,Very Poor,Very Low,Increased,Yes,Not at All,Good,Good,Rarely,Yes,High,High,Low
+Very Good,Very Good,Very Low,Decreased,Yes,Not at All,Neutral,Good,Rarely,Yes,Moderate,Low,Moderate
+Neutral,Good,Low,Decreased,Somewhat,Completely,Poor,Good,Never,No,High,Low,High
+Low,Poor,Very High,Increased,Somewhat,Not at All,Very Irritable,Very Often,Never,Yes,High,Moderate,Low
+Good,Good,Very High,Decreased,Yes,Somewhat Irritable,Poor,Sometimes,Never,No,Low,High,Low
+Very Low,Neutral,Moderate,Increased,Somewhat,Somewhat Irritable,Very Good,Very Poor,Very Often,No,Moderate,High,Low
+Low,Very Poor,Low,Normal,Somewhat,Somewhat Irritable,Very Good,Good,Very Often,No,Low,High,High
+Very Good,Poor,Very Low,Normal,Somewhat,Somewhat Irritable,Good,Good,Very Often,No,Low,High,Low
+Low,Very Poor,Moderate,Decreased,Yes,Not at All,Poor,Very Poor,Rarely,Yes,High,High,Low
+Neutral,Very Good,Low,Decreased,Somewhat,Not at All,Neutral,Good,Very Often,No,High,Low,Moderate
+Good,Poor,Very Low,Normal,Somewhat,Completely,Neutral,Very Often,Rarely,No,Low,Low,Low
+Low,Poor,Low,Increased,Yes,Not at All,Very Good,Good,Rarely,No,Moderate,High,High
+Good,Poor,Very High,Normal,Yes,Completely,Poor,Good,Rarely,No,High,High,High
+Very Good,Neutral,Moderate,Decreased,Yes,Not at All,Poor,Very Often,Very Often,No,High,High,Low
+Good,Poor,Very High,Decreased,Yes,Somewhat Irritable,Good,Rarely,Rarely,No,High,Low,Low
+Very Low,Very Good,Low,Normal,Yes,Not at All,Good,Rarely,Sometimes,No,Moderate,Low,High
+Neutral,Very Good,High,Normal,Yes,Somewhat Irritable,Very Good,Rarely,Never,Yes,Moderate,Moderate,High
+Very Low,Very Poor,High,Increased,No,Completely,Neutral,Rarely,Never,Yes,Moderate,High,Moderate
+Very Good,Very Good,Very Low,Normal,Somewhat,Not at All,Very Irritable,Good,Rarely,No,Low,Moderate,Moderate
+Very Good,Very Good,Very Low,Normal,No,Somewhat Irritable,Very Good,Very Poor,Rarely,Yes,Low,Low,Moderate
+Low,Neutral,Very High,Normal,Yes,Not at All,Neutral,Sometimes,Never,No,High,High,High
+Neutral,Poor,Low,Decreased,Yes,Completely,Poor,Good,Sometimes,Yes,High,High,Low
+Low,Neutral,High,Normal,Yes,Not at All,Neutral,Good,Never,Yes,Low,High,Low
+Very Low,Neutral,Very Low,Increased,No,Somewhat Irritable,Very Good,Good,Very Often,Yes,Moderate,Low,Low
+Very Low,Very Poor,Moderate,Increased,No,Not at All,Very Irritable,Rarely,Very Often,Yes,Low,Low,Low
+Very Good,Poor,Very Low,Normal,Yes,Completely,Poor,Very Often,Rarely,Yes,Moderate,High,Moderate
+Very Good,Neutral,Very Low,Normal,No,Somewhat Irritable,Very Good,Rarely,Very Often,No,Moderate,Moderate,High
+Very Good,Very Good,Low,Increased,Somewhat,Completely,Very Good,Sometimes,Sometimes,No,Moderate,High,Moderate
+Low,Good,Low,Decreased,Yes,Not at All,Very Irritable,Good,Never,No,Moderate,Moderate,Moderate
+Very Good,Good,High,Decreased,Somewhat,Not at All,Poor,Good,Very Often,Yes,High,Low,Low
+Very Low,Neutral,Very High,Decreased,No,Completely,Very Irritable,Very Poor,Rarely,Yes,Moderate,Moderate,Low
+Low,Neutral,Moderate,Increased,Yes,Not at All,Poor,Sometimes,Rarely,No,High,Moderate,Low
+Very Low,Poor,Very Low,Decreased,Somewhat,Completely,Poor,Good,Sometimes,No,Low,Moderate,Moderate
+Low,Very Good,Moderate,Decreased,Somewhat,Somewhat Irritable,Neutral,Sometimes,Very Often,No,Low,Moderate,High
+Neutral,Very Poor,Low,Normal,No,Completely,Poor,Very Often,Never,No,Moderate,Low,High
+Good,Poor,Low,Decreased,Somewhat,Somewhat Irritable,Good,Very Poor,Rarely,No,Low,High,Moderate
+Very Good,Good,Low,Normal,Yes,Completely,Very Irritable,Very Often,Rarely,No,High,Low,Low
+Low,Neutral,Moderate,Increased,Yes,Completely,Good,Good,Sometimes,No,Low,High,Moderate
+Very Low,Poor,Low,Decreased,No,Not at All,Neutral,Good,Never,Yes,High,High,High
+Very Good,Very Good,Very High,Normal,Yes,Somewhat Irritable,Neutral,Very Poor,Sometimes,Yes,High,Low,Moderate
+Low,Very Poor,Moderate,Decreased,Yes,Not at All,Very Good,Very Poor,Rarely,Yes,Moderate,High,Low
+Neutral,Very Poor,High,Increased,Somewhat,Not at All,Very Irritable,Good,Rarely,No,High,High,High
+Very Low,Neutral,Very High,Decreased,Yes,Completely,Good,Very Often,Sometimes,No,High,Low,Low
+Very Good,Very Good,High,Increased,Yes,Completely,Good,Very Often,Never,No,High,Moderate,Moderate
+Very Low,Very Good,Moderate,Increased,Somewhat,Completely,Very Irritable,Rarely,Never,No,Moderate,Low,High
+Low,Poor,Very High,Decreased,Somewhat,Not at All,Good,Rarely,Very Often,Yes,High,High,High
+Neutral,Good,Low,Decreased,Somewhat,Completely,Neutral,Very Poor,Very Often,Yes,High,High,High
+Very Low,Good,High,Increased,Somewhat,Somewhat Irritable,Good,Good,Rarely,Yes,Moderate,High,Low
+Low,Neutral,Low,Decreased,No,Not at All,Poor,Very Poor,Very Often,Yes,Low,High,High
+Low,Very Poor,Very High,Decreased,Yes,Not at All,Very Good,Very Poor,Rarely,No,Low,Low,Low
+Very Low,Poor,Low,Normal,Somewhat,Not at All,Very Irritable,Very Poor,Sometimes,No,High,Moderate,High
+Very Low,Poor,High,Increased,Yes,Completely,Very Irritable,Very Poor,Never,Yes,Moderate,Moderate,Moderate
+Low,Very Poor,Moderate,Increased,Somewhat,Somewhat Irritable,Very Good,Very Poor,Never,Yes,Low,Low,Moderate
+Good,Poor,Very High,Increased,Somewhat,Not at All,Very Irritable,Rarely,Never,Yes,Low,Moderate,Moderate
+Neutral,Very Poor,Moderate,Decreased,Yes,Not at All,Good,Very Poor,Very Often,No,High,High,Moderate
+Very Low,Good,High,Increased,No,Somewhat Irritable,Neutral,Rarely,Never,No,Moderate,High,Low
+Good,Good,Low,Decreased,No,Completely,Very Irritable,Very Often,Rarely,Yes,High,High,Moderate
+Neutral,Very Good,Very Low,Decreased,No,Somewhat Irritable,Neutral,Sometimes,Rarely,Yes,High,Moderate,Low
+Very Low,Good,Very High,Normal,Somewhat,Not at All,Good,Good,Very Often,No,Low,Low,Moderate
+Very Good,Poor,Very High,Increased,No,Somewhat Irritable,Poor,Very Poor,Never,No,High,High,High
+Very Low,Very Poor,Very Low,Decreased,Yes,Somewhat Irritable,Very Irritable,Good,Never,No,Low,Low,Moderate
+Very Low,Very Poor,High,Increased,No,Not at All,Very Good,Sometimes,Sometimes,No,Moderate,Low,High
+Good,Good,Moderate,Normal,Yes,Not at All,Poor,Good,Never,No,Low,Low,Low
+Neutral,Very Good,Low,Decreased,Somewhat,Completely,Good,Rarely,Sometimes,Yes,Low,Low,High
+Very Low,Very Good,Very High,Increased,No,Not at All,Poor,Very Often,Very Often,Yes,High,Low,High
+Very Low,Very Poor,Very Low,Decreased,No,Not at All,Very Good,Very Poor,Never,Yes,Low,Low,High
+Good,Very Poor,Very Low,Normal,No,Somewhat Irritable,Neutral,Very Poor,Sometimes,No,Low,Moderate,High
+Very Good,Very Poor,High,Increased,Yes,Not at All,Neutral,Very Often,Very Often,Yes,Moderate,Low,Moderate
+Neutral,Good,High,Increased,Yes,Not at All,Very Irritable,Rarely,Very Often,No,Low,Low,High
+Neutral,Poor,Moderate,Normal,Yes,Completely,Very Good,Very Often,Sometimes,Yes,Moderate,Low,Low
+Very Good,Very Poor,Very Low,Decreased,Yes,Somewhat Irritable,Very Good,Good,Rarely,Yes,High,Moderate,High
+Neutral,Very Poor,Very Low,Normal,Yes,Completely,Very Good,Very Often,Very Often,No,Low,Moderate,Moderate
+Very Low,Neutral,High,Decreased,Yes,Not at All,Good,Good,Very Often,No,Moderate,Low,Moderate
+Very Low,Neutral,Very Low,Increased,No,Completely,Poor,Very Poor,Never,Yes,Low,High,High
+Very Good,Very Good,High,Increased,No,Somewhat Irritable,Neutral,Very Poor,Never,No,High,Low,High
+Neutral,Good,High,Normal,Yes,Completely,Very Good,Good,Very Often,No,Low,Low,Moderate
+Neutral,Poor,Moderate,Decreased,Yes,Not at All,Neutral,Very Often,Never,Yes,Moderate,Moderate,Moderate
+Good,Very Good,Moderate,Normal,Yes,Somewhat Irritable,Very Good,Very Poor,Never,Yes,High,Moderate,High
+Very Good,Good,Very Low,Decreased,Somewhat,Not at All,Very Irritable,Sometimes,Rarely,Yes,High,Low,High
+Very Good,Very Poor,Very High,Increased,No,Somewhat Irritable,Good,Rarely,Sometimes,Yes,Moderate,Moderate,Moderate
+Low,Good,Very Low,Normal,No,Not at All,Neutral,Very Poor,Rarely,Yes,Moderate,Low,Low
+Very Good,Neutral,Moderate,Decreased,Somewhat,Completely,Neutral,Very Poor,Rarely,Yes,High,High,High
+Low,Good,Very Low,Decreased,No,Somewhat Irritable,Very Good,Good,Sometimes,Yes,Low,Low,High
+Low,Neutral,Low,Normal,No,Somewhat Irritable,Very Irritable,Sometimes,Very Often,Yes,Low,Moderate,High
+Very Low,Very Poor,Very High,Increased,Somewhat,Completely,Very Irritable,Good,Never,No,High,Low,High
+Neutral,Very Good,Low,Normal,No,Completely,Very Irritable,Good,Sometimes,Yes,Moderate,Low,Moderate
+Very Low,Neutral,Low,Normal,Yes,Somewhat Irritable,Poor,Rarely,Rarely,Yes,High,Moderate,Moderate
+Very Good,Poor,Low,Normal,No,Completely,Very Good,Very Often,Rarely,No,Low,Low,Moderate
+Low,Very Good,High,Increased,Somewhat,Completely,Good,Good,Never,No,High,Moderate,Low
+Neutral,Very Good,Very High,Increased,No,Somewhat Irritable,Very Irritable,Very Often,Very Often,Yes,Low,Moderate,Moderate
+Good,Neutral,Low,Normal,Somewhat,Somewhat Irritable,Very Irritable,Very Poor,Sometimes,Yes,Low,Low,Low
+Low,Neutral,Moderate,Decreased,No,Somewhat Irritable,Very Good,Sometimes,Never,No,High,Low,High
+Very Good,Poor,Low,Decreased,Yes,Somewhat Irritable,Very Irritable,Very Poor,Rarely,Yes,Low,Low,High
+Low,Good,Moderate,Decreased,No,Completely,Very Irritable,Rarely,Very Often,Yes,Moderate,High,Moderate
+Very Good,Neutral,Moderate,Decreased,No,Somewhat Irritable,Poor,Rarely,Sometimes,No,Low,Moderate,Low
+Very Low,Neutral,Very High,Increased,Somewhat,Not at All,Good,Rarely,Rarely,Yes,Low,Moderate,High
+Good,Very Good,Very High,Increased,No,Completely,Neutral,Good,Very Often,No,High,Moderate,High
+Low,Very Good,Very High,Decreased,Yes,Somewhat Irritable,Poor,Rarely,Never,Yes,Low,Moderate,Moderate
+Very Good,Very Poor,Moderate,Decreased,Yes,Not at All,Very Irritable,Very Poor,Rarely,No,High,Low,Moderate
+Good,Very Poor,Moderate,Increased,No,Not at All,Good,Rarely,Very Often,Yes,Low,High,Low
+Very Low,Poor,Low,Increased,Somewhat,Not at All,Very Good,Good,Sometimes,No,High,High,High
+Very Good,Very Good,High,Increased,Yes,Somewhat Irritable,Good,Sometimes,Rarely,Yes,Moderate,Moderate,Low
+Good,Very Poor,Low,Normal,Yes,Completely,Very Irritable,Rarely,Sometimes,Yes,Moderate,Low,High
+Neutral,Poor,Low,Normal,Somewhat,Somewhat Irritable,Good,Good,Very Often,Yes,High,Moderate,High
+Good,Neutral,High,Decreased,Yes,Completely,Poor,Good,Very Often,Yes,Moderate,Moderate,High
+Neutral,Poor,Moderate,Normal,Yes,Somewhat Irritable,Neutral,Good,Rarely,No,High,Moderate,Low
+Very Low,Poor,Very High,Increased,No,Completely,Very Irritable,Very Poor,Never,No,Moderate,Moderate,Moderate
+Good,Good,Very High,Decreased,Somewhat,Not at All,Very Good,Very Poor,Rarely,No,Low,High,Low
+Low,Poor,Very High,Increased,No,Somewhat Irritable,Very Good,Sometimes,Never,No,High,Moderate,High
+Neutral,Very Poor,High,Normal,No,Completely,Very Irritable,Rarely,Very Often,Yes,Low,High,High
+Low,Very Good,Moderate,Increased,Somewhat,Somewhat Irritable,Very Irritable,Very Poor,Sometimes,Yes,Moderate,High,High
+Low,Neutral,Moderate,Increased,Somewhat,Completely,Neutral,Sometimes,Sometimes,Yes,High,Moderate,Moderate
+Very Good,Very Good,Low,Normal,No,Somewhat Irritable,Very Irritable,Very Often,Sometimes,No,High,Low,High
+Low,Very Poor,Very Low,Increased,Somewhat,Completely,Very Irritable,Very Poor,Never,No,High,Moderate,High
+Low,Very Poor,Low,Normal,Yes,Somewhat Irritable,Poor,Sometimes,Never,Yes,Low,Moderate,Low
+Neutral,Neutral,High,Normal,Somewhat,Somewhat Irritable,Neutral,Very Often,Never,Yes,Low,Low,High
+Very Good,Very Poor,Very High,Normal,No,Completely,Neutral,Very Often,Very Often,No,Low,Low,High
+Low,Neutral,Low,Decreased,Somewhat,Completely,Good,Good,Never,Yes,Low,High,Moderate
+Good,Poor,Very Low,Decreased,Somewhat,Not at All,Good,Sometimes,Rarely,No,Moderate,Moderate,Moderate
+Good,Very Good,Low,Increased,No,Somewhat Irritable,Very Irritable,Sometimes,Rarely,No,Low,Moderate,High
+Very Good,Neutral,Very High,Decreased,Yes,Completely,Neutral,Very Poor,Never,Yes,High,Low,Low
+Low,Good,Low,Normal,Yes,Completely,Very Irritable,Good,Rarely,Yes,Low,High,Low
+Very Good,Very Good,Very Low,Increased,No,Somewhat Irritable,Neutral,Very Poor,Sometimes,No,Moderate,High,High
+Good,Very Good,High,Normal,Yes,Completely,Very Irritable,Very Poor,Never,Yes,Moderate,Low,Moderate
+Very Good,Poor,Moderate,Normal,Yes,Not at All,Neutral,Very Poor,Rarely,No,Low,Low,Moderate
+Neutral,Very Poor,Moderate,Decreased,Yes,Not at All,Good,Sometimes,Never,No,Low,High,High
+Very Good,Good,Moderate,Normal,No,Completely,Neutral,Very Poor,Rarely,No,Moderate,Moderate,High
+Very Low,Very Poor,Very High,Increased,No,Somewhat Irritable,Very Good,Very Often,Never,Yes,High,Moderate,Low
+Low,Poor,High,Decreased,Somewhat,Not at All,Very Irritable,Good,Sometimes,Yes,High,Low,Moderate
+Low,Good,Very High,Normal,No,Somewhat Irritable,Very Good,Rarely,Never,No,Low,High,High
+Very Low,Neutral,Moderate,Increased,Yes,Somewhat Irritable,Neutral,Good,Sometimes,No,High,Low,High
+Low,Good,Very High,Normal,Yes,Somewhat Irritable,Neutral,Very Often,Very Often,Yes,High,High,High
+Very Low,Neutral,Very Low,Increased,Somewhat,Somewhat Irritable,Neutral,Very Often,Rarely,Yes,Low,Low,Low
+Very Good,Neutral,Very High,Increased,No,Not at All,Poor,Very Often,Very Often,Yes,Moderate,Moderate,Low
+Neutral,Neutral,Very Low,Decreased,Yes,Somewhat Irritable,Very Good,Good,Never,Yes,High,High,Low
+Low,Very Good,Moderate,Increased,No,Not at All,Good,Sometimes,Never,No,Low,High,High
+Very Good,Very Good,Low,Normal,Yes,Not at All,Neutral,Sometimes,Rarely,No,High,High,Low
+Neutral,Very Good,Very High,Normal,Somewhat,Completely,Very Good,Very Poor,Rarely,No,High,Moderate,Low
+Neutral,Very Good,Very Low,Decreased,Yes,Not at All,Neutral,Good,Rarely,Yes,Low,Low,High
+Neutral,Neutral,Low,Normal,Yes,Completely,Very Good,Rarely,Never,No,Moderate,Low,Moderate
+Neutral,Poor,Low,Increased,Somewhat,Not at All,Good,Sometimes,Very Often,Yes,Low,Moderate,Moderate
+Low,Very Good,Moderate,Normal,Yes,Not at All,Poor,Very Poor,Sometimes,No,Moderate,High,Low
+Good,Very Poor,Very Low,Decreased,Somewhat,Completely,Very Irritable,Good,Never,Yes,High,Moderate,High
+Very Good,Neutral,Low,Decreased,No,Somewhat Irritable,Very Irritable,Sometimes,Very Often,Yes,High,High,Low
+Very Good,Good,Very High,Increased,Somewhat,Completely,Poor,Very Often,Rarely,No,Low,Moderate,Low
+Neutral,Neutral,Very High,Normal,Somewhat,Completely,Poor,Rarely,Very Often,Yes,Moderate,Moderate,Low
+Low,Good,High,Normal,No,Somewhat Irritable,Very Irritable,Sometimes,Sometimes,Yes,Moderate,Moderate,Moderate
+Very Low,Very Poor,Very High,Decreased,Somewhat,Somewhat Irritable,Very Irritable,Good,Rarely,Yes,Moderate,Moderate,Moderate
+Good,Very Good,High,Increased,Somewhat,Completely,Very Irritable,Very Poor,Rarely,Yes,Moderate,Moderate,High
+Very Good,Very Poor,Moderate,Increased,No,Completely,Neutral,Good,Very Often,Yes,High,Low,High
+Neutral,Very Poor,Low,Increased,No,Not at All,Good,Sometimes,Very Often,Yes,High,Moderate,Low
+Low,Very Poor,Very Low,Decreased,Yes,Completely,Very Good,Very Often,Sometimes,Yes,Low,High,High
+Low,Very Good,Low,Normal,Yes,Somewhat Irritable,Very Irritable,Rarely,Very Often,No,Moderate,Moderate,High
+Neutral,Very Poor,Moderate,Decreased,No,Completely,Poor,Sometimes,Never,Yes,High,Moderate,Moderate
+Very Good,Poor,Very Low,Normal,Somewhat,Completely,Neutral,Good,Sometimes,Yes,Low,Low,Low
+Good,Poor,High,Increased,Yes,Somewhat Irritable,Poor,Sometimes,Sometimes,Yes,Low,Low,High
+Very Low,Neutral,Very High,Normal,Yes,Not at All,Neutral,Very Poor,Sometimes,No,High,Low,Low
+Very Good,Poor,Moderate,Normal,No,Somewhat Irritable,Poor,Good,Very Often,No,Moderate,High,Moderate
+Very Low,Very Good,Very High,Normal,Somewhat,Completely,Very Good,Very Poor,Very Often,Yes,High,Moderate,Low
+Neutral,Neutral,Low,Increased,No,Not at All,Neutral,Very Often,Rarely,Yes,High,High,Moderate
+Very Low,Very Poor,Moderate,Normal,Somewhat,Completely,Neutral,Sometimes,Rarely,Yes,High,Low,High
+Very Good,Good,Moderate,Increased,Somewhat,Completely,Neutral,Very Poor,Very Often,No,Low,High,Moderate
+Very Low,Very Poor,High,Decreased,Yes,Not at All,Good,Very Poor,Never,Yes,Low,Moderate,High
+Neutral,Very Good,Low,Decreased,Yes,Completely,Neutral,Very Often,Sometimes,No,High,Moderate,High
+Very Low,Neutral,Low,Decreased,No,Not at All,Poor,Very Poor,Sometimes,No,Moderate,Moderate,Low
+Good,Neutral,Moderate,Normal,Somewhat,Not at All,Neutral,Good,Rarely,No,Low,Low,Moderate
+Good,Poor,High,Normal,No,Not at All,Very Irritable,Sometimes,Rarely,No,Moderate,High,High
+Very Good,Good,Very Low,Normal,No,Completely,Good,Very Often,Rarely,Yes,Moderate,Low,Moderate
+Good,Poor,High,Decreased,Yes,Completely,Very Good,Good,Rarely,No,Moderate,Low,High
+Very Good,Very Good,Very Low,Normal,No,Completely,Poor,Good,Very Often,No,Low,High,Low
+Low,Very Poor,Very Low,Normal,Somewhat,Not at All,Poor,Sometimes,Very Often,No,Low,High,High
+Neutral,Neutral,Very Low,Decreased,No,Not at All,Poor,Very Poor,Never,No,High,High,High
+Very Good,Very Good,Very High,Increased,Yes,Completely,Good,Rarely,Never,Yes,High,High,Low
+Neutral,Very Poor,High,Normal,Somewhat,Somewhat Irritable,Very Irritable,Sometimes,Rarely,Yes,Moderate,High,Low
+Neutral,Very Good,Moderate,Increased,Yes,Somewhat Irritable,Neutral,Very Often,Very Often,No,Low,Moderate,Moderate
+Neutral,Good,Moderate,Normal,No,Not at All,Good,Rarely,Never,Yes,Low,High,Moderate
+Low,Very Good,Moderate,Decreased,No,Completely,Neutral,Very Often,Sometimes,Yes,Low,High,Low
+Very Good,Very Good,Moderate,Normal,Yes,Completely,Very Irritable,Sometimes,Very Often,No,Low,High,High
+Good,Good,Low,Normal,Somewhat,Not at All,Very Irritable,Good,Sometimes,Yes,Moderate,Moderate,Moderate
+Very Low,Very Good,Moderate,Normal,No,Somewhat Irritable,Poor,Good,Sometimes,No,High,Moderate,Moderate
+Good,Very Poor,High,Increased,No,Not at All,Very Irritable,Sometimes,Never,No,Moderate,Low,Moderate
+Neutral,Neutral,High,Normal,Somewhat,Not at All,Very Irritable,Very Poor,Never,No,Low,Moderate,Moderate
+Low,Very Poor,Low,Normal,No,Completely,Good,Rarely,Sometimes,No,Moderate,Moderate,High
+Good,Good,High,Increased,No,Somewhat Irritable,Good,Very Often,Sometimes,No,Moderate,Moderate,Moderate
+Neutral,Very Poor,Very Low,Decreased,No,Not at All,Very Good,Very Poor,Very Often,No,Moderate,High,High
+Low,Neutral,Moderate,Increased,No,Somewhat Irritable,Poor,Sometimes,Rarely,No,High,Moderate,Low
+Good,Very Good,High,Normal,No,Not at All,Very Good,Sometimes,Never,No,Moderate,Low,Low
+Neutral,Poor,High,Decreased,No,Not at All,Neutral,Very Poor,Sometimes,No,Low,Low,High
+Good,Poor,Low,Normal,No,Somewhat Irritable,Poor,Good,Very Often,No,High,High,Moderate
+Very Good,Very Poor,Low,Decreased,Yes,Completely,Poor,Good,Never,No,Low,High,High
+Neutral,Good,Very High,Increased,No,Not at All,Very Irritable,Rarely,Sometimes,Yes,Low,Moderate,Moderate
+Low,Very Poor,Very Low,Normal,No,Somewhat Irritable,Good,Sometimes,Very Often,Yes,High,High,Low
+Good,Neutral,Very Low,Decreased,No,Completely,Good,Good,Very Often,No,Low,High,Low
+Very Low,Poor,High,Normal,Yes,Not at All,Very Good,Rarely,Rarely,No,Moderate,Moderate,Moderate
+Low,Very Poor,High,Increased,Somewhat,Somewhat Irritable,Neutral,Rarely,Rarely,Yes,High,High,Low
+Low,Poor,Very High,Increased,Somewhat,Somewhat Irritable,Good,Very Often,Sometimes,Yes,High,Moderate,High
+Neutral,Good,Very High,Decreased,No,Completely,Very Good,Good,Sometimes,Yes,High,Moderate,Low
+Low,Very Poor,Low,Normal,No,Somewhat Irritable,Very Irritable,Good,Never,No,High,Moderate,High
+Very Good,Neutral,Moderate,Normal,No,Somewhat Irritable,Very Irritable,Rarely,Rarely,No,High,High,High
+Good,Very Poor,Very Low,Decreased,Yes,Not at All,Very Irritable,Very Poor,Rarely,No,Moderate,Moderate,Moderate
+Good,Good,Moderate,Normal,Somewhat,Not at All,Neutral,Rarely,Very Often,Yes,Low,High,High
+Very Good,Very Good,Very High,Increased,No,Completely,Good,Sometimes,Sometimes,No,High,High,Low
+Neutral,Very Good,Low,Normal,No,Somewhat Irritable,Very Irritable,Very Often,Never,No,Low,Moderate,Moderate
+Neutral,Good,Moderate,Decreased,No,Completely,Good,Very Poor,Very Often,Yes,Low,High,High
+Good,Neutral,High,Normal,Yes,Not at All,Very Irritable,Very Poor,Sometimes,Yes,High,High,Low
+Very Good,Very Poor,Very High,Normal,Somewhat,Somewhat Irritable,Very Irritable,Good,Sometimes,Yes,Low,High,Low
+Good,Neutral,Moderate,Normal,No,Not at All,Very Good,Rarely,Never,No,Moderate,Low,Low
+Very Good,Neutral,High,Normal,Somewhat,Completely,Very Good,Very Often,Very Often,No,Low,Low,High
+Low,Very Poor,Moderate,Decreased,Yes,Not at All,Good,Very Often,Sometimes,Yes,Moderate,Low,High
+Very Low,Very Good,Very High,Decreased,Yes,Completely,Neutral,Very Poor,Very Often,Yes,Moderate,High,Moderate
+Neutral,Very Good,High,Increased,No,Completely,Poor,Good,Never,Yes,Low,Low,High
+Neutral,Very Good,Very High,Increased,Yes,Completely,Very Irritable,Sometimes,Sometimes,No,High,High,High
+Good,Poor,High,Increased,No,Completely,Very Irritable,Sometimes,Rarely,Yes,High,Moderate,Moderate
+Neutral,Good,Low,Increased,No,Not at All,Neutral,Very Often,Rarely,Yes,High,Low,High
+Very Good,Very Poor,Low,Decreased,Somewhat,Not at All,Very Irritable,Very Often,Sometimes,No,High,Moderate,High
+Low,Good,Moderate,Normal,No,Completely,Good,Sometimes,Never,Yes,Moderate,Moderate,Moderate
+Neutral,Very Poor,Very High,Increased,No,Somewhat Irritable,Very Good,Good,Rarely,Yes,High,Low,High
+Very Low,Poor,Very Low,Decreased,Yes,Not at All,Very Good,Good,Never,Yes,Moderate,High,Low
+Very Good,Neutral,High,Decreased,Yes,Completely,Very Irritable,Sometimes,Never,Yes,Low,Moderate,Low
+Neutral,Very Poor,High,Decreased,Yes,Somewhat Irritable,Poor,Good,Rarely,No,High,High,Moderate
+Very Good,Very Poor,Very High,Decreased,Yes,Completely,Good,Good,Sometimes,Yes,Low,Low,Moderate
+Neutral,Very Poor,Very Low,Normal,Somewhat,Not at All,Very Irritable,Very Poor,Sometimes,Yes,Moderate,Moderate,High
+Very Good,Good,Very Low,Increased,Yes,Completely,Very Good,Very Poor,Sometimes,No,High,Low,Low
+Low,Neutral,Very High,Increased,Somewhat,Not at All,Neutral,Very Often,Sometimes,No,Low,Moderate,High
+Very Low,Poor,Moderate,Increased,No,Not at All,Good,Good,Never,No,Low,High,Moderate
+Very Low,Poor,Very Low,Decreased,Somewhat,Completely,Poor,Sometimes,Never,No,High,Low,Moderate
+Very Good,Good,Moderate,Normal,Somewhat,Completely,Very Good,Sometimes,Never,Yes,High,Moderate,High
+Very Low,Very Poor,Very High,Increased,No,Not at All,Good,Good,Never,Yes,High,High,High
+Neutral,Poor,Very High,Decreased,No,Completely,Neutral,Very Often,Never,No,High,High,Low
+Good,Poor,Moderate,Increased,No,Completely,Poor,Rarely,Very Often,No,Low,High,High
+Very Low,Very Poor,Very Low,Normal,Yes,Completely,Good,Very Poor,Rarely,Yes,Moderate,Moderate,Moderate
+Very Low,Very Good,Very High,Increased,Yes,Not at All,Poor,Very Poor,Never,Yes,High,Low,Moderate
+Good,Very Good,High,Decreased,Yes,Completely,Good,Good,Rarely,Yes,Low,Low,Low
+Neutral,Very Good,Moderate,Increased,No,Completely,Very Irritable,Very Poor,Very Often,Yes,Low,Moderate,Low
+Neutral,Poor,Moderate,Normal,Yes,Completely,Poor,Rarely,Very Often,No,Low,High,High
+Very Low,Very Good,Low,Decreased,Yes,Somewhat Irritable,Very Irritable,Very Often,Very Often,Yes,Low,High,Moderate
+Very Good,Good,Very High,Normal,Somewhat,Somewhat Irritable,Neutral,Good,Never,No,Moderate,High,High
+Neutral,Neutral,High,Normal,No,Not at All,Very Irritable,Rarely,Never,No,Moderate,High,Low
+Very Good,Very Poor,Low,Normal,No,Completely,Good,Good,Rarely,Yes,Moderate,High,Low
+Very Low,Very Poor,Moderate,Increased,Yes,Not at All,Very Good,Very Often,Sometimes,No,Low,High,Low
+Very Low,Neutral,Low,Increased,No,Somewhat Irritable,Very Good,Sometimes,Very Often,No,Low,High,Moderate
+Neutral,Very Good,Very Low,Increased,Yes,Somewhat Irritable,Very Irritable,Good,Sometimes,Yes,High,Low,High
+Low,Good,High,Decreased,Somewhat,Not at All,Poor,Sometimes,Never,Yes,Moderate,Moderate,Moderate
+Very Good,Very Poor,Low,Decreased,No,Not at All,Neutral,Good,Never,No,Low,Low,Moderate
+Good,Poor,Very Low,Increased,No,Not at All,Very Irritable,Very Often,Very Often,Yes,Low,High,Moderate
+Good,Poor,Very Low,Decreased,Yes,Completely,Very Good,Good,Never,Yes,Moderate,Moderate,Low
+Very Low,Poor,Very High,Normal,No,Not at All,Very Irritable,Good,Rarely,No,High,High,High
+Good,Poor,High,Decreased,No,Somewhat Irritable,Good,Good,Very Often,Yes,Moderate,Low,Low
+Low,Very Poor,Very High,Decreased,Somewhat,Completely,Neutral,Good,Rarely,Yes,Moderate,Low,Low
+Very Good,Poor,Very High,Decreased,No,Not at All,Good,Very Often,Rarely,Yes,Moderate,Moderate,Moderate
+Low,Very Poor,High,Increased,No,Completely,Neutral,Good,Rarely,Yes,Moderate,Moderate,Low
+Very Low,Neutral,High,Decreased,Yes,Somewhat Irritable,Neutral,Rarely,Rarely,Yes,Moderate,Moderate,Low
+Low,Very Poor,Very Low,Increased,Somewhat,Somewhat Irritable,Good,Very Often,Rarely,No,Moderate,High,High
+Good,Very Poor,High,Decreased,Yes,Not at All,Neutral,Very Often,Rarely,Yes,High,Moderate,Moderate
+Neutral,Good,Moderate,Decreased,No,Not at All,Neutral,Very Often,Sometimes,Yes,Moderate,Moderate,Low
+Good,Poor,Very High,Normal,Yes,Not at All,Good,Very Often,Rarely,Yes,Moderate,Moderate,Moderate
+Good,Very Poor,High,Decreased,Yes,Not at All,Poor,Very Often,Rarely,Yes,Low,High,Moderate
+Very Good,Very Good,High,Normal,Somewhat,Completely,Neutral,Rarely,Sometimes,No,High,Low,Low
+Low,Very Good,Very Low,Increased,No,Somewhat Irritable,Neutral,Sometimes,Rarely,No,Low,Moderate,Low
+Good,Poor,High,Increased,Yes,Completely,Neutral,Very Poor,Sometimes,No,Low,Low,Moderate
+Very Low,Good,Moderate,Decreased,No,Not at All,Very Good,Rarely,Very Often,No,High,Low,Moderate
+Very Good,Very Poor,Very High,Increased,No,Not at All,Very Good,Sometimes,Sometimes,No,Low,Moderate,Moderate
+Very Low,Very Poor,Moderate,Increased,Somewhat,Completely,Very Good,Rarely,Never,Yes,High,Moderate,Low
+Neutral,Neutral,High,Normal,Somewhat,Somewhat Irritable,Neutral,Sometimes,Very Often,No,High,Low,Low
+Low,Very Poor,High,Decreased,No,Not at All,Very Irritable,Very Poor,Rarely,Yes,Low,High,Low
+Neutral,Poor,Very Low,Increased,No,Not at All,Very Irritable,Rarely,Never,No,Low,High,High
+Very Good,Poor,Very Low,Increased,No,Completely,Very Irritable,Very Poor,Very Often,No,Low,Low,Low
+Good,Very Poor,Very Low,Normal,Somewhat,Somewhat Irritable,Poor,Sometimes,Never,Yes,High,Low,Low
+Very Good,Neutral,Very Low,Decreased,Somewhat,Completely,Neutral,Rarely,Rarely,No,High,Low,Low
+Very Low,Very Poor,Very High,Increased,Yes,Not at All,Poor,Sometimes,Never,Yes,Moderate,Low,Moderate
+Very Good,Neutral,Very Low,Decreased,No,Somewhat Irritable,Very Irritable,Very Poor,Very Often,No,High,Low,High
+Good,Poor,Moderate,Decreased,Yes,Somewhat Irritable,Neutral,Rarely,Rarely,No,Low,High,Moderate
+Very Good,Neutral,High,Normal,Somewhat,Completely,Good,Very Poor,Very Often,Yes,High,Moderate,High
+Very Good,Very Poor,Very Low,Increased,Somewhat,Somewhat Irritable,Very Good,Good,Never,No,High,High,Low
+Good,Neutral,Very Low,Increased,No,Somewhat Irritable,Very Good,Very Poor,Sometimes,No,High,Low,High
+Neutral,Good,Very Low,Decreased,Somewhat,Not at All,Poor,Good,Rarely,Yes,Low,Moderate,High
+Very Low,Poor,Moderate,Increased,No,Somewhat Irritable,Neutral,Good,Rarely,No,Moderate,High,Moderate
+Neutral,Neutral,Very High,Increased,Yes,Somewhat Irritable,Neutral,Rarely,Sometimes,No,Low,Moderate,Moderate
+Neutral,Good,Very Low,Increased,No,Not at All,Very Good,Very Often,Rarely,Yes,Low,High,Moderate
+Very Good,Good,High,Normal,No,Somewhat Irritable,Very Irritable,Rarely,Sometimes,No,High,Low,Moderate
+Neutral,Very Good,Very High,Decreased,Somewhat,Completely,Very Irritable,Very Often,Never,Yes,Low,High,High
+Low,Poor,High,Decreased,No,Somewhat Irritable,Very Irritable,Very Poor,Very Often,Yes,Low,High,Low
+Low,Very Poor,Low,Normal,Yes,Not at All,Very Good,Rarely,Never,No,Moderate,High,High
+Good,Very Poor,Very Low,Normal,Yes,Completely,Good,Very Often,Never,Yes,Moderate,Low,Moderate
+Good,Neutral,Moderate,Increased,No,Somewhat Irritable,Very Good,Very Often,Very Often,No,Low,Moderate,Moderate
+Low,Very Poor,Very High,Increased,No,Completely,Very Irritable,Very Often,Never,Yes,Moderate,High,High
+Neutral,Good,High,Decreased,No,Somewhat Irritable,Neutral,Sometimes,Rarely,No,Low,Low,High
+Low,Neutral,High,Increased,Yes,Not at All,Neutral,Good,Never,No,Low,Moderate,Moderate
+Very Low,Good,Very High,Decreased,Yes,Somewhat Irritable,Neutral,Good,Rarely,No,Low,Moderate,Low
+Good,Poor,Very Low,Increased,No,Somewhat Irritable,Very Good,Sometimes,Never,No,High,Low,Low
+Very Low,Very Good,High,Normal,Yes,Somewhat Irritable,Neutral,Rarely,Very Often,No,Low,Low,Low
+Very Good,Good,Moderate,Normal,Somewhat,Completely,Very Good,Good,Very Often,Yes,High,High,High
+Very Low,Good,Moderate,Increased,Somewhat,Completely,Neutral,Good,Rarely,Yes,Moderate,High,High
+Very Low,Very Poor,Moderate,Normal,Somewhat,Not at All,Very Irritable,Very Often,Very Often,Yes,Low,Low,Low
+Very Good,Very Good,Very Low,Increased,No,Somewhat Irritable,Very Good,Very Often,Never,No,Low,High,High
+Very Low,Good,Very Low,Normal,Yes,Not at All,Very Irritable,Good,Sometimes,No,High,Low,Low
+Very Low,Very Poor,Low,Increased,Somewhat,Completely,Poor,Rarely,Sometimes,Yes,High,Low,Moderate
+Very Good,Good,Low,Normal,Somewhat,Somewhat Irritable,Good,Good,Rarely,Yes,Low,Low,Low
+Good,Poor,Low,Increased,Yes,Not at All,Good,Very Poor,Very Often,No,Moderate,Moderate,Moderate
+Very Good,Very Good,Low,Increased,No,Somewhat Irritable,Poor,Sometimes,Very Often,Yes,High,High,High
+Very Low,Very Good,Very Low,Increased,Yes,Completely,Very Irritable,Sometimes,Very Often,No,Low,High,High
+Neutral,Poor,High,Normal,Yes,Completely,Very Good,Good,Very Often,Yes,High,Low,High
+Good,Poor,Moderate,Decreased,No,Somewhat Irritable,Very Good,Very Often,Never,No,Moderate,Moderate,High
+Very Low,Good,High,Normal,Somewhat,Somewhat Irritable,Good,Good,Never,Yes,Moderate,Moderate,High
+Neutral,Very Good,High,Normal,Somewhat,Not at All,Very Irritable,Sometimes,Never,No,Low,Low,Moderate
+Neutral,Very Poor,Very High,Normal,Yes,Not at All,Very Irritable,Very Poor,Very Often,No,Moderate,High,High
+Very Good,Very Poor,Very Low,Increased,Yes,Somewhat Irritable,Good,Very Poor,Never,No,High,High,Low
+Neutral,Poor,High,Decreased,Somewhat,Somewhat Irritable,Very Good,Very Often,Very Often,Yes,High,Low,Low
+Very Low,Very Good,Very High,Increased,No,Somewhat Irritable,Poor,Rarely,Rarely,Yes,Moderate,High,Low
+Very Good,Poor,Low,Normal,No,Not at All,Good,Good,Very Often,Yes,High,Low,Moderate
+Very Low,Neutral,Very High,Increased,Yes,Somewhat Irritable,Very Irritable,Very Often,Never,Yes,High,Moderate,Moderate
+Very Good,Good,Low,Decreased,Somewhat,Completely,Very Good,Rarely,Very Often,Yes,High,Low,Moderate
+Good,Poor,High,Decreased,Yes,Not at All,Neutral,Rarely,Rarely,Yes,Low,High,Moderate
+Neutral,Good,Low,Increased,No,Somewhat Irritable,Very Good,Good,Never,Yes,High,High,Moderate
+Low,Very Poor,Very Low,Decreased,Yes,Somewhat Irritable,Neutral,Good,Never,Yes,High,Low,Moderate
+Neutral,Neutral,Very High,Normal,No,Somewhat Irritable,Neutral,Very Poor,Very Often,No,Moderate,High,Moderate
+Very Good,Very Poor,Low,Normal,Yes,Completely,Poor,Rarely,Very Often,Yes,High,Moderate,Low
+Very Low,Very Poor,Very High,Normal,Somewhat,Not at All,Very Irritable,Good,Sometimes,No,Low,Moderate,Moderate
