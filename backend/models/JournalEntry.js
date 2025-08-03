@@ -1,24 +1,47 @@
-// backend/models/JournalEntry.js
-
 const mongoose = require('mongoose');
 
-// Define the schema with both 'content' and 'text' fields and a default 'createdAt' date
+// Updated JournalEntry schema with consistent field naming and structured mental health fields
 const JournalEntrySchema = new mongoose.Schema({
-    content: { 
-        type: String, 
-        required: true  // Content is required
+    entry: {
+        type: String,
+        required: true
     },
-    text: { 
-        type: String  // Optional field for 'text'
+    moodPrediction: {
+        type: String,
+        enum: ['Happy', 'Sad', 'Anxious', 'Neutral'],
+        default: 'Neutral'
     },
-    createdAt: { 
-        type: Date, 
-        default: Date.now  // Default value for date is the current date
+    stressLevel: {
+        type: String,
+        enum: ['High', 'Low'],
+        default: 'Low'
+    },
+    anxietyLevel: {
+        type: String,
+        enum: ['High', 'Low'],
+        default: 'Low'
+    },
+    depressionLevel: {
+        type: String,
+        enum: ['High', 'Low'],
+        default: 'Low'
+    },
+    stressSolution: {
+        type: String,
+        default: 'Stay calm and relaxed!'
+    },
+    anxietySolution: {
+        type: String,
+        default: 'Relax and enjoy your moment'
+    },
+    depressionSolution: {
+        type: String,
+        default: 'Keep your spirits up!'
+    },
+    date: {
+        type: Date,
+        default: Date.now
     }
 });
 
-// Create the model using the schema
-const JournalEntry = mongoose.model('JournalEntry', JournalEntrySchema);
-
-// Export the model for use in other files
-module.exports = JournalEntry;
+module.exports = mongoose.model('JournalEntry', JournalEntrySchema);

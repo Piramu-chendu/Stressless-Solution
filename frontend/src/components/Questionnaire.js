@@ -3,6 +3,33 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './Questionnaire.css';
 
+// Export getSolutions function outside the component to allow imports in other files
+export const getSolutions = (stress, anxiety, depression) => {
+    const solutions = {
+        stress: {
+            High: "Consider relaxation techniques, mindfulness exercises, and seeking professional help.",
+            Moderate: "Try managing stress through exercise, proper sleep, and healthy lifestyle choices.",
+            Low: "Maintain a balanced routine, continue self-care, and stay mindful."
+        },
+        anxiety: {
+            High: "Consult a healthcare provider for anxiety management, including therapy and medication.",
+            Moderate: "Practice relaxation methods like deep breathing or yoga.",
+            Low: "Engage in positive activities that reduce stress and enhance well-being."
+        },
+        depression: {
+            High: "Seek professional help, including therapy and possibly medication. Consider engaging in social activities.",
+            Moderate: "Talk with a close friend, family member, or counselor. Consider engaging in light physical activities.",
+            Low: "Continue with your regular activities, practice mindfulness, and focus on self-care."
+        }
+    };
+
+    return {
+        stressSolution: solutions.stress[stress],
+        anxietySolution: solutions.anxiety[anxiety],
+        depressionSolution: solutions.depression[depression]
+    };
+};
+
 const Questionnaire = () => {
     const [answers, setAnswers] = useState({
         mood: '',
@@ -14,7 +41,9 @@ const Questionnaire = () => {
         concentration: '',
         feelingWorthy: '',
         anxiousThoughts: '',
-        panicAttacks: ''
+        panicAttacks: '',
+        stress: '',
+        anxiety: ''
     });
 
     const navigate = useNavigate();
@@ -23,11 +52,27 @@ const Questionnaire = () => {
         setAnswers({ ...answers, [e.target.name]: e.target.value });
     };
 
-    // ✅ Function to calculate stress and anxiety
+    const encodeScore = (score) => {
+        switch (score) {
+            case 'Low': return 1;
+            case 'Moderate': return 2;
+            case 'High': return 3;
+            default: return 0;
+        }
+    };
+
     const calculateScores = (answers) => {
-        // Simplified example: you can adjust the logic based on your real app
         let stressScore = 0;
         let anxietyScore = 0;
+        let depressionScore = 0;
+
+        if (answers.mood === 'Very Low' || answers.energy === 'Very Low' || answers.appetite === 'Very Low' || answers.interest === 'Very Low') {
+            depressionScore = 3; // Severe depression
+        } else if (answers.mood === 'Low' || answers.energy === 'Low' || answers.appetite === 'Low' || answers.interest === 'Low') {
+            depressionScore = 2; // Moderate depression
+        } else if(answers.mood === 'Neutral' || answers.energy === 'Neutral' || answers.appetite === 'Neutral' || answers.interest === 'Neutral') {
+            depressionScore = 1; // Mild depression
+        }
 
         if (answers.anxiousThoughts === 'Very Often' || answers.panicAttacks === 'Very Often') {
             anxietyScore = 3;
@@ -44,35 +89,54 @@ const Questionnaire = () => {
         } else {
             stressScore = 1;
         }
+        
 
-        // Map numeric score to labels
         const scoreMap = { 1: 'Low', 2: 'Moderate', 3: 'High' };
 
         return {
             stress: scoreMap[stressScore],
-            anxiety: scoreMap[anxietyScore]
+            anxiety: scoreMap[anxietyScore],
+            depression: scoreMap[depressionScore]
         };
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
         try {
-            // First, calculate stress and anxiety
             const scores = calculateScores(answers);
-
-            // Merge answers + scores
-            const payload = { ...answers, ...scores };
-
-            const response = await axios.post("http://localhost:5001/submit", payload);
-            localStorage.setItem("result", JSON.stringify(response.data));
-            navigate("/results");
+            const solutions = getSolutions(scores.stress, scores.anxiety,scores.depression);
+    
+            const payload = { 
+                ...answers, 
+                stress: encodeScore(scores.stress), 
+                anxiety: encodeScore(scores.anxiety),
+                depression: encodeScore(scores.depression)
+            };
+    
+            const response = await axios.post('http://localhost:5001/submit', payload);
+            console.log('✅ Prediction response:', response.data);
+    
+            // Storing the prediction result along with solutions in localStorage
+            localStorage.setItem('prediction', JSON.stringify({
+                prediction: response.data.prediction,
+                stressLevel: scores.stress,
+                anxietyLevel: scores.anxiety,
+                depressionLevel: scores.depression,  // Assuming this is the depression level
+                stressSolution: solutions.stressSolution,
+                anxietySolution: solutions.anxietySolution,
+                depressionSolution: solutions.depressionSolution // Storing the depression solution
+            }));
+    
+            // ✅ Success popup
+            window.alert('✅ Submitted Successfully! Redirecting to Results...');
+    
+            navigate('/results'); // Redirect to results page after submission
         } catch (error) {
-            console.error("Submission failed:", error);
-            alert("Error submitting data");
+            console.error('❌ Error submitting data:', error);
+            alert('Error submitting data. Please try again.');
         }
     };
-
+    
     return (
         <div className="questionnaire-container">
             <center><h2>Mental Health Questionnaire</h2></center>

@@ -5,13 +5,15 @@ const cors = require('cors');
 const axios = require('axios');
 require('dotenv').config();
 
+const { predictMood, getMentalState } = require('./utils/predictMood'); // ✅ Import keyword-based logic
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.json()); // Middleware for parsing JSON
+app.use(express.json());
 
 // MongoDB connection
 mongoose.connect(process.env.MONGODB_URI, {
@@ -28,21 +30,18 @@ const questionnaireRoutes = require('./routes/questionnaire');
 app.use('/api/journal', journalRoutes);
 app.use('/api/questionnaire', questionnaireRoutes);
 
-// ✅ UPDATED API Endpoint for Submitting Questionnaire Responses
+// ✅ Questionnaire submission route
 app.post('/api/questionnaire/submit', async (req, res) => {
     try {
         const answers = req.body;
+        console.log("Submitting answers:", answers);
 
-        // Log the answers being submitted
-        console.log("Submitting answers:", answers);  // Log the answers
-
-        // Send the answers to the Flask API for prediction
         const flaskRes = await axios.post('http://127.0.0.1:5001/submit', answers);
 
-        // Respond back with the prediction result from Flask API
         res.status(200).json({
             message: 'Responses submitted and prediction received',
-            prediction: flaskRes.data.prediction
+            prediction: flaskRes.data.prediction,
+            depressionSolution: flaskRes.data.depressionSolution
         });
     } catch (error) {
         console.error('Error submitting responses:', error.response?.data || error.message);
@@ -50,18 +49,30 @@ app.post('/api/questionnaire/submit', async (req, res) => {
     }
 });
 
-// API Endpoint for handling journal entries
-app.post('/api/journal/entries', async (req, res) => {
+// ✅ Journal entry analysis using keyword-based logic
+app.post('/api/journal/analyze', (req, res) => {
     try {
-        const journalEntry = req.body;
-        res.status(200).json({ message: 'Journal entry created', data: journalEntry });
+        const { content } = req.body;
+
+        if (!content) {
+            return res.status(400).json({ message: 'Journal content is required.' });
+        }
+
+        const mood = predictMood(content);
+        const mentalState = getMentalState(content);
+
+        res.status(200).json({
+            message: 'Journal analyzed successfully.',
+            mood: mood,
+            mentalState: mentalState
+        });
     } catch (error) {
-        console.error('Error creating journal entry:', error);
-        res.status(500).json({ message: 'Failed to create journal entry' });
+        console.error('Error analyzing journal entry:', error);
+        res.status(500).json({ message: 'Failed to analyze journal entry' });
     }
 });
 
-// Route to call the Flask ML API for predictions
+// Route to call the Flask ML API for predictions (using all questionnaire inputs)
 app.post('/predict-ml', async (req, res) => {
     try {
         const {

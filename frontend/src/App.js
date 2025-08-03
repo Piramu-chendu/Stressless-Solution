@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import Questionnaire from './components/Questionnaire';
 import Results from './components/Results';
@@ -8,12 +8,14 @@ import ToDoList from './components/ToDoList';
 import './App.css';
 
 function App() {
-    const [results, setResults] = useState(null);
+    const navigate = useNavigate();
 
     const handleQuestionnaireSubmit = (answers) => {
         const scores = calculateScores(answers);
-        setResults(scores);
-        localStorage.setItem("results", JSON.stringify(scores)); // Store scores
+        localStorage.setItem("results", JSON.stringify(scores)); // Store scores in localStorage
+
+        // Navigate to results page
+        navigate('/results');
     };
 
     const calculateScores = (answers) => {
@@ -36,17 +38,15 @@ function App() {
     };
 
     return (
-        <Router>
-            <div className="app-container">
-                <Header />
-                <Routes>
-                    <Route path="/" element={<Questionnaire onSubmit={handleQuestionnaireSubmit} />} />
-                    <Route path="/results" element={<Results scores={results} />} />
-                    <Route path="/journal" element={<Journal />} />
-                    <Route path="/todolist" element={<ToDoList />} />
-                </Routes>
-            </div>
-        </Router>
+        <div className="app-container">
+            <Header />
+            <Routes>
+                <Route path="/" element={<Questionnaire onSubmit={handleQuestionnaireSubmit} />} />
+                <Route path="/results" element={<Results />} />
+                <Route path="/journal" element={<Journal />} />
+                <Route path="/todolist" element={<ToDoList />} />
+            </Routes>
+        </div>
     );
 }
 
